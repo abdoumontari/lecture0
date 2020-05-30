@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my webpage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	table {
+		border-width: 100% ;
+		border : 2px solid black;
+		border: 2px;
+		margin: 20px;					
+	}
+	td{
+		padding: 20px;
+	}
+   @media print {
+                .screen-only {
+                    display: none;
+                    font-color:black;
+                }
+            }
+             .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .container > div {
+            	
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+            .doin {
+            	text-align: right;
+            	font-weight: bold;
+
+            }
+            input[type=search]{background-color:white;
+            	       width: 50%;
+            	   }
+</style> 
+
+</head>
+<body bgcolor="GRAY" >
+
+	
+<H3>hello,world!</H3>  <form> <button>arabic</button><button>english</button>
+
+<h2 style="font-family: times newroman;font-weight: bold;font-color: red;padding: 30px;margin:20px;background-color: teal"> <center>EL ATTAF SHOP</center> </h2>
+<table>
+	<tr><td>HOME</td><td> <a href="articles.html"> ARTICLES </a></td><td><a href="use this.html"> OTHERS </a></td><td><a href="about.html"> ABOUT</a>
+	</td></tr>
+	
+</table><hr>
+	
+<form>
+	<input type="search" name="name" placeholder="research" width="60%"><button >search</button>search some product you want it !<br>
+	<h5 style=" font-family: arial ;font-weight: bold " >     choose your categorie :</h5>
+	<input type="radio" name="categorie" value="vehicule" id="vehicule">
+     <label for="vehicule"> vehicule </label>
+	<input type="radio" name="categorie" value="phone" id="phone"> 
+	<label for="phone">telephone </label>
+	<input type="radio" name="categorie"value="laptop" id="laptop">
+     <label for="laptop"> laptop </label>
+    <input type="radio" name="categorie" value="elecromenage" id="elecromenage"> 
+      <label for="elecromenage"> elecromenage</label>
+      <input type="radio" name="categorie" value="cars" id="cars">
+     <label for="cars"> cars</label>
+     <input type="radio" name="categorie"value="authers"id="authers"> 
+      <label for="authers"> authers</label>
+</form>
+ <div class="doin">
+    <form><button> conect</button> <button><a href="#abd"> register</button>  </form>
+     </div>
+
+
+<p class="screen-only" style="font-weight: bold;font-family: arial"> for follow us write your personal information and enregster here : </p>
+
+<form id="abd" >
+  
+   <input name="name" type="text" placeholder="full name" >
+   <input name="name" type="text" placeholder="you email" >
+    <input  name="name"type="number" placeholder="your age">
+    <input list="wilaya"  name="states" placeholder="wilaya">
+    <datalist id="wilaya">
+    	<option value="adrar">
+    	<option value="chelef">
+    	<option value="aghouat">
+    	<option value="oum elbuaki">
+    	<option value="batna">
+    	<option value="bejea">
+    	<option value="bechar">
+        <option value="besekra">
+    	<option value="belida">
+    	<option value="bouira">
+    	<option value="tamenrasset">
+    	<option value="tebissa">
+    	<option value="telemcen">
+    	<option value="tiaret">
+        <option value="tizi-ouzou">
+    	<option value="alger">
+    	<option value="el djalfa">
+    	<option value="jijel">
+    	<option value="setif">
+    	<option value="saida">
+    	<option value="sekikda">
+        <option value="sidi belaabas">
+    	<option value="annaba">
+    	<option value="galma">
+    	<option value="costontine">
+    	<option value="medea">
+    	<option value="mostaganem">
+    	<option value="mesila">
+        
+    	<option value="mescara">
+    	<option value="ouaregla">
+        <option value="ouran">
+    	<option value="el baidhe">
+    	<option value="ilizi">
+    	<option value="bourj bouarirej">
+    	<option value="boumerdes">
+    	<option value="taref">
+    	<option value="tindouf">
+        <option value="tissemsilet">
+    	<option value="el ouadi">
+    	<option value="khanchela">
+    	<option value="souk ahras">
+    	<option value="tipaza">
+    	<option value="mila">
+    	<option value="ain defla">
+        <option value="naama">
+    	<option value="ain temouchent">
+    	<option value="ghardaia">
+    	<option value="ghilizane">
+    </datalist>
+    <input name="password" type="password" placeholder="enter Password">
+    <br>
+	 <button> submit</button><br>
+    
+
+	</form>
+<div class="container">
+	<div> <img src=""> requeste1   </div>
+	<div> <img src=""> requeste2   </div>
+	<div> <img src=""> requeste3   </div>
+	<div> <img src=""> requeste4   </div>
+	
+</div>
+
+<hr>
+<center><p class="screen-only" > FOLLOW US IN :  <a href="https://www.facebook.com/profile.php?id=100021730398615">  FACEBOOK </a> <br>
+ <a href="www.YOUTUBE.com"> YOUTUBE</a><br>
+ <a href="abdoumontari08@gmail.com">email</a><br>
+</p></center>
+    
+    </body>
+</html>
